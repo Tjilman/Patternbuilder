@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>Patternbuilder</title>
+  <link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Pattern Generator</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="layout">
+    <div class="canvas-area">
+      <div class="canvas-wrapper">
+        <svg id="patternCanvas" xmlns="http://www.w3.org/2000/svg"></svg>
+      </div>
+    </div>
+
+    <aside class="sidebar">
+      <div class="controls">
+        <label for="canvasWidth">Width</label>
+        <input type="number" id="canvasWidth" value="500" min="100">
+
+        <label for="canvasHeight">Height</label>
+        <input type="number" id="canvasHeight" value="500" min="100">
+
+        <label for="detailLevel">Detail Level</label>
+        <div class="select-wrapper">
+          <select id="detailLevel">
+            <option value="simple">Simple</option>
+            <option value="complex">Complex</option>
+          </select>
+        </div>
+
+        <button id="generateBtn">Generate</button>
+      </div>
+
+      <button id="exportBtn">Export</button>
+    </aside>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
+<!-- partial -->
+  <script  src="./script.js"></script>
+
+</body>
+</html>
